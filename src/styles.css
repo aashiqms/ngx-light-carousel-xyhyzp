@@ -1,0 +1,32 @@
+.transition {
+	transition: all 500ms cubic-bezier(0.5, 0, 0.5, 1) !important;
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:800&display=swap');
+
+
+* {
+  margin: 0 auto;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+
+h3 {
+  margin-top: 10px;
+
+}
+
+.sale-price {
+  color: red;
+}
+
+.on-sale {
+  margin-left: 10px;
+  text-decoration: line-through;
+}
